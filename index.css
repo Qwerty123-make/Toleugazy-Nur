@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.rrr {
+    max-width: 200%;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(12, 1, 94);
+    font-family: "Kanit", sans-serif;
+}
+.title {
+    display: flex;
+    margin: 50px auto;
+    overflow: hidden;
+    max-width: 90%;
+    border: 1px solid rgb(8, 1, 142);
+}
+
+.title div {
+    width: 100%;
+    animation: ren 6s linear infinite;
+}
+
+@keyframes ren {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.img22{ 
+    width: 70px;
+}
+
+.start {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(7, 0, 62);
+    justify-content: space-between;
+}
+
+.start1 {
+    display: flex;
+    align-items: center;
+}
+
+.start1 a {
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.start1 a:hover {
+    color: rgb(5, 58, 216);
+}
+
+.start1, p1{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #010018;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #01018e;
+    border-radius: 2px;
+}
+
+p {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.U{
+    height: 750px;
+    border:4px solid rgb(1, 1, 123);
+    margin-top: 80px;
+}
+.N, b{
+    font-size: 50px;
+   color: rgb(1, 1, 78);
+}
+.biography {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.biography p {
+    color: rgb(1, 1, 78);
+    padding: 5px;
+    margin: 0;
+    max-width: 500px;
+    font-size: 38px;
+    border: 2px solid  rgb(2, 2, 103);  
+}
+.biography img {
+    max-width:400px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+.biography img:hover{
+    transform: scale(1.0);
+}
+
+.btn {   
+    display: block;
+    text-align: center;
+    margin: 80px auto 0 auto;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background: #01018e;
+    width: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.8s ;
+}
+
+.btn:hover{
+    width: 150px;
+    background: #02023f;
+}
+
+.U3 {
+    height: 750px;
+    border: 4px solid rgb(1, 1, 123);
+}
+
+.N3 b {
+    font-size: 50px;
+    margin-top: 90px;
+    color: rgb(1, 1, 78);
+}
+
+.biography3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.achieve{
+    border: 2px solid rgb(2, 2, 103);
+}
+
+.biography3 p {
+    color: rgb(1, 1, 78);
+    padding: 12px;
+    margin: 0;
+    max-width: 650px;
+    font-size: 29px;
+}
+
+.biography3 img {
+    max-width: 950px;
+    height: 550px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    margin-top: 5px;
+}
+
+.biography3 img:hover {
+    transform: scale(1.1);
+}
+
+.btn3 {
+    display: block;
+    text-align: center;
+    margin: 2px auto 0 auto;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background: #01018e;
+    width: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+}
+
+.btn3:hover {
+    width: 150px;
+    background: #02023f;
+}
+
+
+.U2{
+    height: 750px;
+    border: 4px solid rgb(1, 1, 123);
+}
+.N2 b {
+    font-size: 50px;
+    color: rgb(1, 1, 78);
+}
+
+.biography2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.biography2 p {
+    color: rgb(1, 1, 78);
+    padding: 5px;
+    margin: 0;
+    max-width: 600px;
+    font-size: 20px;
+    border: 2px solid rgb(2, 2, 103);
+}
+
+.biography2 img {
+    max-width: 850px;
+    height: 450px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    margin-top: 60px;
+}
+
+.biography2 img:hover {
+    transform: scale(1.1);
+}
+
+.btn2 {
+    display: block;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background: #01018e;
+    width: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+}
+
+.btn2:hover {
+    width: 150px;
+    background: #02023f;
+}
+
+.U4 {
+    height: 800px;
+    border: 4px solid rgb(1, 1, 123);
+}
+
+.N4 b {
+    font-size: 50px;
+    margin-top: 90px;
+    color: rgb(1, 1, 78);
+}
+
+.biography4 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.biography4 p {
+    color: rgb(1, 1, 78);
+    padding: 12px;
+    margin: 0;
+    max-width: 600px;
+    font-size: 24px;
+}
+
+.biography4 img {
+    max-width: 1000px;
+    height: 550px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    margin-top: 25px;
+}
+
+.biography4 img:hover {
+    transform: scale(1.1);
+}
+
+.btn4 {
+    display: block;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background: #01018e;
+    width: 130px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+}
+
+.btn4:hover {
+    width: 170px;
+    background: #02023f;
+}
